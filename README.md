@@ -21,7 +21,7 @@ def search_notes():
             print(f'{i+1} {note.created_at} {note.title}: {note.body}')
 ```
 ### about the while loop
-Finally, I choose to use a while loop. The loop will continue to run until the user presses (4) and exit the program. This works well. It's nice to have a way of running this app that doesn't require the user to restart each time they want to make a change. 
+Finally, I choose to use a while loop. The loop will run until the user enters "4" and exits the program. This works well. It's nice to have a way of running this app that doesn't require the user to restart each time they want to make a change. 
 
 ## next steps
 A couple more feature I would like to add. 
